@@ -3,7 +3,6 @@
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/yourusername/B-Happening.git
-    cd B-Happening
     ```
 
 2. **Install dependencies:**
