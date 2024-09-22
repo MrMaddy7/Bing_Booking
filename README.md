@@ -2,7 +2,8 @@
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/B-Happening.git
+    git clone https://github.com/MrMaddy7/Bing_Booking.git
+    cd Bing_Booking
     ```
 
 2. **Install dependencies:**
