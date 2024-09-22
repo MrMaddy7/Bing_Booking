@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Set the background image and define its properties */
+  background-image: url("./assets/WebPageBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App-layout {
+  max-height: 100vh;
+  overflow: hidden;
+}

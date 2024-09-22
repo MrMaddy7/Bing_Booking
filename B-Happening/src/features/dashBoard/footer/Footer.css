@@ -1,0 +1,35 @@
+/* @font-face {
+  font-family: "Inkpot";
+  src: url("../../../Fonts/Inkpot.ttf");
+} */
+.FooterView {
+  background-color: black;
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.FooterView span {
+  font-family: "Inkpot";
+  font-size: 18px;
+  color: whitesmoke;
+  margin-left: 40%;
+}
+
+.FooterView-max {
+  background-color: black;
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.FooterView-max span {
+  font-family: "Inkpot";
+  font-size: 18px;
+  color: whitesmoke;
+  margin-left: 40%;
+}/*# sourceMappingURL=Footer.css.map */

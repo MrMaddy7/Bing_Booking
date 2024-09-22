@@ -1,0 +1,93 @@
+/* @font-face {
+  font-family: "Fette";
+  src: url("../../../Fonts/FETTE___.TTF");
+}
+@font-face {
+  font-family: "Muggle";
+  src: url("../../../Fonts/mugglenews_by_nathanthenerd_d41qn8p.ttf");
+}
+@font-face {
+  font-family: "PressStyle";
+  src: url("../../../Fonts/PressStyleSerif.ttf");
+}
+@font-face {
+  font-family: "QuietZoo";
+  src: url("../../../Fonts/QuietZoo.ttf");
+} */
+.NavbarView {
+  padding: 1rem 0.5rem 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.NavbarView .nav-1 {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.NavbarView .nav-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 2;
+  margin: 0 15rem 0 0;
+}
+.NavbarView .nav-2 .logo {
+  max-width: 10rem;
+  max-height: 10rem;
+  cursor: pointer;
+}
+.NavbarView .nav-2 h1 {
+  /* font-family: "Muggle"; */
+  font-size: 4rem;
+  margin: 0 0 0 1rem;
+  align-self: flex-start;
+  cursor: pointer;
+}
+.NavbarView .nav-2 .input-search {
+  /* font-family: "QuietZoo"; */
+  align-self: flex-start;
+  margin-left: 2rem;
+  width: 14rem;
+  font-size: 2.5rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 2px solid black;
+}
+.NavbarView .nav-2 .input-search:focus {
+  outline: none;
+}
+.NavbarView .nav-2 .input-search::-moz-placeholder {
+  color: black;
+}
+.NavbarView .nav-2 .input-search::placeholder {
+  color: black;
+}
+.NavbarView .nav-3 {
+  display: flex;
+  cursor: pointer;
+}
+.NavbarView .nav-3 ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+.NavbarView .nav-3 ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.NavbarView .burger-menu {
+  height: 50px;
+  width: 50px;
+  align-self: baseline;
+}
+.NavbarView .setting-wheel img {
+  height: 50px;
+  width: 50px;
+}
+.NavbarView .user-wheel img {
+  height: 50px;
+  width: 50px;
+}/*# sourceMappingURL=Navbar.css.map */

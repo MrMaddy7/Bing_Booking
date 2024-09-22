@@ -1,0 +1,64 @@
+
+.Login-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.Login-Section h1 {
+  color: #2ECC71;
+  font-family: 'Arial', sans-serif;
+  font-size: 5rem;
+}
+.Login-Section h6 {
+  font-size: 2rem;
+}
+.Login-Section .Login-logo {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+.Login-Section .login-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 45%;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.9);
+  width: 320px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-out;
+}
+.Login-Section input {
+  margin: 1rem 0 1rem 0;
+  width: 22rem;
+  font-size: 2.5rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 2px solid black;
+}
+.Login-Section input:focus {
+  outline: none;
+}
+.Login-Section input::-moz-placeholder {
+  color: black;
+}
+.Login-Section input::placeholder {
+  color: black;
+}
+.Login-Section button {
+  margin: 2rem 0 0 0;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  background: #2ECC71;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Login-Section button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}/*# sourceMappingURL=Login.css.map */

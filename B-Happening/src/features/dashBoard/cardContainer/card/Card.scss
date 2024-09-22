@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "ParryHotter";
+  src: url("../../../../Fonts/ParryHotter.ttf");
+}
+@font-face {
+  font-family: "DJB";
+  src: url("../../../../Fonts/DJB\ I\ Love\ a\ Ginger.ttf");
+}
+
+.SingleCard {
+  margin: 1rem;
+  width: 15rem;
+  height: 35vh;
+  text-align: justify;
+  border: 1px solid black;
+  border-radius: 15px;
+  h2 {
+    text-align: center;
+    font-family: "ParryHotter";
+  }
+  p {
+    margin: 0.5rem 0 0 0;
+    font-family: "DJB";
+    line-height: 20px;
+    padding: 0.5rem;
+    word-spacing: 1px;
+    overflow: hidden;
+    word-break: break-word;
+    text-overflow: ellipsis; /* Add this line to show ellipsis for overflow */
+    display: -webkit-box; /* For multi-line text ellipsis */
+    -webkit-box-orient: vertical; /* For multi-line text ellipsis */
+    -webkit-line-clamp: 8; /* Show up to 5 lines of text */
+  }
+}
+
+.SingleCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

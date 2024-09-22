@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Muggle";
+  src: url("../../Fonts/mugglenews_by_nathanthenerd_d41qn8p.ttf");
+}
+@font-face {
+  font-family: "QuietZoo";
+  src: url("../../Fonts/QuietZoo.ttf");
+}
+.SignUp-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.SignUp-Section h1 {
+  font-family: "Muggle";
+  font-size: 5rem;
+}
+.SignUp-Section h6 {
+  font-family: "QuietZoo";
+  font-size: 2rem;
+}
+.SignUp-Section .SignUp-logo {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+.SignUp-Section .SignUp-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 45%;
+  align-items: center;
+  border: 1px solid black;
+  padding: 3rem;
+}
+.SignUp-Section input {
+  margin: 1rem 0 1rem 0;
+  font-family: "QuietZoo";
+  width: 22rem;
+  font-size: 2.5rem;
+  height: 4rem;
+  background-color: transparent;
+  border: 2px solid black;
+}
+.SignUp-Section input:focus {
+  outline: none;
+}
+.SignUp-Section input::-moz-placeholder {
+  color: black;
+}
+.SignUp-Section input::placeholder {
+  color: black;
+}
+.SignUp-Section button {
+  margin: 2rem 0 0 0;
+  width: 8rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: "QuietZoo";
+  font-size: 2.5rem;
+}
+.SignUp-Section button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}/*# sourceMappingURL=SignUp.css.map */
