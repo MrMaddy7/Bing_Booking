@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Animated Login and Signup Form</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #32CD32, #2ECC71);
+      background-size: 200% 200%;
+      animation: gradient 8s ease infinite;
+      overflow: hidden;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+      backdrop-filter: blur(15px);
+      margin: 20px;
+    }
+
+    .form-box {
+      width: 320px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 24px;
+      color: #2ECC71;
+    }
+
+    .form-box input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      transition: all 0.3s ease;
+    }
+
+    .form-box input:focus {
+      border-color: #32CD32;
+      box-shadow: 0 0 12px rgba(50, 205, 50, 0.3);
+    }
+
+    .form-box button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #2ECC71;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .form-box button:hover {
+      background: #27AE60;
+      box-shadow: 0 5px 10px rgba(46, 204, 113, 0.3);
+    }
+
+    .social-login {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-login a {
+      margin: 0 10px;
+      color: #2ECC71;
+      font-size: 24px;
+      transition: color 0.3s ease;
+    }
+
+    .social-login a:hover {
+      color: #27AE60;
+    }
+
+    .link {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .link a {
+      color: #2ECC71;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .link a:hover {
+      color: #32CD32;
+    }
+
+    .form-box button:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <h2>SIGN UP</h2>
+      <input type="text" placeholder="Enter Username">
+      <input type="password" placeholder="Enter Password">
+      <input type="password" placeholder="Confirm Password">
+      <button>Register</button>
+      <div class="link">
+        <span>Don't have an account? <a href="#">Create Account Here</a></span>
+      </div>
+    </div>
+
+    <div class="form-box">
+      <h2>LOGIN HERE</h2>
+      <input type="text" placeholder="Enter Username">
+      <input type="password" placeholder="Enter Password">
+      <button>Login</button>
+      <div class="link">
+        <span>Don't have an account? <a href="#">Create Account Here</a></span>
+      </div>
+      <div class="social-login">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
